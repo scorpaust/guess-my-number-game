@@ -12,24 +12,24 @@ This is a simple React Native Expo application where the AI tries to guess the n
 
 1. **Clone the repository**
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourgithubusername/number-guesser-app.git
    cd number-guesser-app
-   \`\`\`
+   ```
 
 2. **Install dependencies**
 
    Make sure you have the [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally.
 
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 3. **Start the app**
 
-   \`\`\`bash
+   ```bash
    expo start
-   \`\`\`
+   ```
 
    This command starts a development server and opens up the Expo Go app in your default browser. You can now scan the QR code using the Expo Go app on your Android or iOS device to see the app live.
 
