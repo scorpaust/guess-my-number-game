@@ -3,7 +3,7 @@ import Colors from '../../constants/colors';
 
 function GuessLogItem({ roundNumber, guess }) {
   return (
-    <View style={styles.listItem}>
+    <View style={styles.listItem} key={roundNumber}>
       <Text style={styles.itemText}>#{roundNumber}</Text>
       <Text style={styles.itemText}>Opponent's Guess: {guess}</Text>
     </View>

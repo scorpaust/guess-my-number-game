@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, StatusBar, Platform } from 'react-native';
 
 function Title({ children }) {
   return (
@@ -20,8 +20,11 @@ const styles = StyleSheet.create({
     fontSize: 24,
     color: 'white',
     textAlign: 'center',
-    borderWidth: 2,
+    // borderWidth: Platform.OS === 'android' ? 2 : 0,
+    borderWidth: Platform.select({ ios: 0, android: 2 }),
     borderColor: 'white',
     padding: 12,
+    maxWidth: '80%',
+    marginTop: StatusBar.currentHeight + 100,
   },
 });
