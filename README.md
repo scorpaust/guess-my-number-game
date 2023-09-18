@@ -3,8 +3,8 @@
 This is a simple React Native Expo application where the AI tries to guess the number you're thinking of, between 1 and 99. After each guess, the user provides feedback to the AI indicating whether its guess was too high, too low, or correct. The AI then responds accordingly until it correctly identifies the user's number.
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="assets/images/screenshots/screenshot1.png" alt="Screenshot 1" width="45%">
-    <img src="assets/images/screenshots/screenshot2.png" alt="Screenshot 2" width="45%">
+    <img src="https://github.com/scorpaust/guess-my-number-game/blob/main/assets/images/screenshots/screenshot01.png" alt="Screenshot 1" width="45%">
+    <img src="https://github.com/scorpaust/guess-my-number-game/blob/main/assets/images/screenshots/screenshot01.png" alt="Screenshot 2" width="45%">
 </div>
 
 ## Features
